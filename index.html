@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<meta name="description" content="Portfolio">
+  		<meta name="author" content="Ashish Chaurasiya">
+		<title>Ashish Chaurasiya | Portfolio</title>
+
+		<link rel = "stylesheet" href = "style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+		<!-- Font-Awesome -->
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- For Bootstrap table -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+		<style>
+			a{
+				font-size: 20px;
+				color: green;
+			}
+			a:hover {
+				color: purple;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav id="navbar" class="navbar">
+			<div class="max-width">
+				<div class="logo"><a href="">Ashish&nbsp;<span style="color: brown;">Chaurasiya</span</a>
+				</div>
+				<ul class="menu">
+					<!-- <li><a href="#" >HOME</a></li> -->
+					<li><a href="#about" >About</a></li>
+					<li><a href="#experiences" >Experiences</a></li>
+					<li><a href="#learnings" >Learnings</a></li>
+					<li><a href="#projects" >Projects</a></li>
+					<li><a href="#contact" >Contact</a></li>
+				</ul>
+				<div class="menu-btn">
+					<i class="fa fa-bars"></i>
+				</div>	
+			</div>
+		</nav>
+
+		<!-- Home -->
+		<section class="home" id="home">
+			<div class="max-width">
+				<div class="home-content">
+					<div class = "text">A platform where you can get to know more about me,<br> my experiences & learnings!</div>
+					
+					<button onclick="newQuote()" class = "button">My convictions</button>
+					
+
+					<div class="textstyle" style="margin-top: 120px; font-size: 25px; font-weight: 200; color:#fff; border: 1px solid black;
+					background-color: transparent;
+					padding-top: 15px;
+					padding-right: 30px;
+					padding-bottom: 30px;
+					padding-left: 40px; border-radius: 20px;;" id='quote'>Click the button to view a glimpse of my perception!
+					</div>
+				</div>	
+			</div>
+		</section>
+
+		
+		<!-- About -->
+		<section style = "background-color: black;" class="about" id="about">
+			<div class="max-width">
+
+				<h2 class="title">About Me</h2>
+				<div class="about-content">
+					<div class="column left">
+						<img src="img/ashishi.jpg" alt="">
+					</div>
+
+					<div class="column right">
+						<div class="text">I'm a <span class="typing-2"></span></div>
+
+						<div class = "" style="font-family: 'Ubuntu', 'sans-serif'; font-weight: 200; color: #fff;"><p>
+							Hey, I am Ashish & my closest ones call me Rohit. I am a Software Development Engineer by profession. I am currently working at RepublicWorld based on Hyderabad.
+							The technology on which I am currently working are Javascript, React Js, Redux, HTML/CSS etc. My Work Experience is 2 year and 6 months.
+							I am looking for better opportunity to work in the Development Profile. I have completed my graduation B.Tech in Manufacturing & Production Engineering from Central Institute Of Petrochemical Engineering & Technology, Lucknow.
+							<br><br>
+							In my Free time, you will find me listening Hindi Songs, playing keyboard. I have a big interest in Music and soon I wanna try my hand in Guitar too. 
+							Also apart from Music you can find me reading novels, playing Sudoko, watching netflix & spiritual series, etc.!
+							<br><br>
+							Please scroll down a bit more to know about my Skills!
+						    </p>
+							<a class="b" download="ASHISH.CHAURASIYA.pdf" target="_blank" href="https://drive.google.com/file/d/1PXcJ35r8yM3q-S92SNGHczs0h6J2KClB/view?usp=sharing">Download Resume</a>
+						</div>
+					</div>
+				</div>
+
+				<div style ="margin-top: -7%;" class="skills-content">
+					<div style=" font-size: 35px; padding-bottom: 1%; padding-top: 2%; color: brown; text-align: center; font-weight: 600;" class="">Skills</div>
+					<table class="table" style="font-weight: 100px; font-size: 20px; color: #fff;">
+						<thead>
+						</thead>
+
+						<tbody>
+							<tr>
+								<th scope="row">Programming</th>
+								<td>C</td>
+								<td>Python</td>
+								<td>JavaScript</td>
+							</tr>
+							<tr>
+								<th scope="row">WEB</th>
+								<td>HTML</td>
+								<td>CSS</td>
+								<td>Bootstrap</td>
+							</tr>
+							<tr>
+								<th scope="row">WEB</th>
+								<td>ReactJs</td>
+								<td>Redux</td>
+								<td>JavaScripts</td>
+							</tr>
+							<tr>
+								<th scope="row">Tools</th>
+								<td>Docker</td>
+								<td>Git</td>
+								<td>Jira</td>
+							</tr>
+							<tr>
+								<th scope="row"></th>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>	
+
+				<div style ="margin-top: 5%;" class="skills-content1">
+					<div style=" font-size: 35px; padding-bottom: 1%; padding-top: 2%; color: brown; text-align: center; font-weight: 600;" class="">Skills</div>
+					<table class="table" style="font-weight: 100px; font-size: 20px; color: #fff;">
+						<thead>
+						</thead>
+
+						
+						<tbody>
+							<tr>
+								<th scope="row">Programming</th>
+								<td>C, Python, JavaScript</td>
+							</tr>
+							<tr>
+								<th scope="row">WEB</th>
+								<td>HTML, CSS, Bootstrap</td>
+							</tr>
+							<tr>
+								<th scope="row">WEB</th>
+								<td>ReactJs, Redux, JavaScript</td>
+							</tr>
+							<tr>
+								<th scope="row">Tools</th>
+								<td>Docker, Git, Jira</td>
+							</tr>
+							<tr>
+								<th scope="row"></th>
+								<td></td>
+							</tr>
+						</tbody> 
+					</table>
+				</div>	
+
+			</div>
+		</section>
+		
+		<!-- Experience -->
+		<section style = "background-color: rgb(3, 3, 46); padding-top: 5%;" id="experiences" class="resume">
+			<div class="max-width">
+
+				<div class="about">
+					<div style = "margin-top: -5%; margin-bottom: 5%;" class="title">
+						My Experiences
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6">
+						<h3 class="resume-title">Experiences</h3>
+						<div class="resume-item">
+							<h4><a href="https://www.RepublicWorld/" target="_blank">Republic World</a> | Front-End Developer</h4>
+							<h5>June 2023 - Present | Remote, India</h5>
+							<ul>
+								<p><span style="color: brown;">RCM (Rich Communication Messaging) Platform Dev Team</span><br>
+                                                                RCM Platform helps Brands to connect with their end users through different channels like CMS etc.</p>
+								<li> <span style="color: brown;">Tech Stack </span>- ReactJs, Redux, HTML/CSS, JavaScript, Docker etc.</li>
+								<li>Whether API Integration - Gave Demo & POC for GBM to be introduced as a new channel enhancement in RepublicWorld Platform. Currently working on the Implementation.</li>
+								<li>Implemented feature Pool Id Management component in CMS config console platform to manage pools with CRUD functionality.</li>
+								<li>Implemented feature HelpCenter Resource Content-Adding component in CMS config console to manage contents with CRUD, FAQs, Upload Image functionalities. •Fixed various bugs raised by production team./li>
+								<li>Implemented Whether API, Sport API ,  CallbackAPI & TemplateManagementAPI Documentation with the help of Image Optimize</li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4><a href="https://swayamhealth.com/" target="_blank">Sanskritech Smart Solution Pvt Ltd</a> | Software Engineer 1</h4>
+							<h5>March 2022 - June 2023 | Mumbai, India</h5>
+							<ul>
+								<p><span style="color: brown;">Front-End Team</span></p>
+								<li>Worked on DataOps Team (One Commercial Partner) for Data Management and Reporting to help business users
+									to support their intuition with data.</li>
+								<li>Worked on ETL data processing, monitoring and validations on ReactJs Technology like JWT. Gained working knowledge on ReactJS,Redux,JWT.</li>
+								<li>Performed various priority fiscal month data refreshes on
+									production. Identified various production bugs and fixed them</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<h3 class="resume-title"> Internships </h3>
+						<div class="resume-item">
+							<h4><a href="https://bayeslabs.co/" target="_blank">BAYES LAB</a> | Machine Learning Intern</h4>
+							<h5>Jan 2021 - April 2021 | Bangalore, India</h5>
+		
+							<ul>
+								<li>A vibrant startup community transforming drug discovery using Machine Learning, Deep Learning, Data and Genomics</li>
+								<li>Implemented Kdeep paper for the prediction of Protein-Ligand Binding Affinity via 3D CNN on PDBbind (v.2016) database with a RMSE of 1.27%
+								 <br><a style="font-size: 15px;" href="https://github.com/ashish9680/FlippeningBot-master" target="_blank">Github</a>
+								</li>
+								<li>Gained working knowledge on the Pytorch framework, ReactJs</li>
+							</ul>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Experience Section -->
+
+
+		<!-- Learnings -->
+		<section style = "background-color:rgb(3, 3, 46); padding-top: 5%; padding-bottom: 1%;" id="learnings" class="resume">
+			
+			<div class="max-width">
+			    <div class="about">
+					<div style = "margin-top: -5%; margin-bottom: 5%;" class="title">
+						My Learnings
+					</div>
+			    </div>
+		
+			    <div class="row">
+					<div class="col-lg-6">
+						<h3 class="resume-title">Education</h3>
+						<div class="resume-item">
+							<h4>Bachelor of Technology, Manufacturing,Production Engineering </h4>
+							<h5>2017 - 2021</h5>
+							<p> Central Institute Of Petrochemical Engineering & Technology, Lucknow<br>
+							CGPA: 6.6/10</p>
+						</div>
+
+						<h3 class="resume-title">Positions of Responsibility</h3>
+						<div class="resume-item pb-0">
+							<ul>
+							<li><span style="color: brown;">Member of Training and Placement Cell</span> at CIPET, Lucknow</li>
+							<li><span style="color: brown;">Vice President and Secretory of Symphony (Music Club)</span> at CIPET, Lucknow</li>
+							<li><span style="color: brown;">Lead Member of Decoration Team</span> at CIPET, Lucknow</li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-lg-6">
+						<h3 class="resume-title"> Certifications </h3>
+						<div class="resume-item">
+							<h4>Full Stack Development | MERN</h4>
+							<h5>LearnCodeOnline | 2021</h5>
+							<ul>
+								<li>Did a course on Tech Stack MERN - MongoDB, Express, React & Nodejs from LearncodeOnline.</li>
+								<li>Implemented an Restaurant Data Management System with the features add, update, list and delete data records and learned various other things</li>
+								<li>Got a deep knowledge on working of end to end development i.e frontend, backend, integration of frontend to backend</li>
+							</ul>
+						</div>
+						<div class="resume-item">
+							<h4>Application Security - The Complete Guide</h4>
+							<h5>Udemy | 2022</h5>
+							<ul>
+								<li>This course familiarized with the common vulnerabilities that plague developed code can have and familiarized to OWASP Top 10 and SANS Top 25.</li>
+								<li>What type of development behaviors lead to vulnerabilities and how to avoid those behaviors when creating secure code. Building security in to the software development life cycle.
+							</ul>
+						</div>
+
+						<h3 class="resume-title">Workshops</h3>
+						<div class="resume-item pb-0">
+							<ul>
+								<li>Attended Workshop on <span style="color: brown;">Python and its Applications</span> with Python</li>
+								<li>Did <span style="color: brown;">"Inspire Internship Program 2013”</span> held under “6th International Science Conclave 2013” at IIIT Allahabad</li>
+								
+							</ul>
+						</div>
+
+					</div>
+			    </div>
+			</div>
+		</section>  
+	    <!-- End of Learnings Section -->
+
+		
+	    <!-- Project -->
+		<section style = "background-color: black; padding-top: 5%;" id="projects" class="resume">
+			<div class="container">
+			
+				<div class="about">
+					<div style = "margin-top: -5%; margin-bottom: 5%;" class="title">
+						My Works 
+					</div>
+				</div>
+		
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="resume-item">
+							<h4>Employee Management System</h4>
+							<h5>2020 | Nodejs, SQL</h5>
+							<ul>
+								<li>Implemented an Employee Management System with the features creating a list of employee, add, update and delete employee records, pagination and sorting.</li>
+								<li>Implemented using ReactJS, MySQL, HTML, CSS </li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4>Restaurant Data Management System</h4>
+							<h5>2020 | ReactJS, NodeJs</h5>
+							<ul>
+								<li>Implemented an Restaurant Data Management System with the features add, update, list and delete data records.</li>
+								<li>Implemented using ReactJS, Nodejs MySQL, HTML, CSS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Project Section -->
+
+
+		<!-- Contact  -->
+		<section class="contact" id="contact">
+			<div class="container" data-aos="fade-up">
+				<div class = "xyz">
+					<h2 style="color:#fff; font-size: 40px;">Let's <i class="fas fa-heart" style="color: red;"></i> connect!</h2>
+				</div>
+					<h6 style="color:#fff; font-size: 18px; color: brown;">You can get in touch with me / Send suggestions, improvements, tea-date invites, or present via any below!
+					</h6><br> 
+			
+			    <!-- reference -https://codepen.io/codename065/pen/doyRNw/ -->
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100044151991113" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a></li>	
+					<li class="list-inline-item"><a href="https://github.com/ashish9680" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.instagram.com/ashish_chaurasiya24/" target="_blank" class="btn-social btn-instagram"><i class="fa fa-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/ashish968067/" target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/@Ashishc19199969" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="mailto:satashish5@gmail.com?subject=Inquiry from Portfolio" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope"></i></a></li>
+				</ul>
+				<h3 style="color: #fff; font-size: 12px;">Thank you for visiting! Please bless me with your positive energies, radiations & vibrations to seek what is seeking me!
+				<br>"Our Desires + Our Vibrations + Our Actions" = "Our Reality"</h3>
+			
+			</div>
+			
+			
+		</section>
+		<!-- End of Contact Section -->
+		
+		<center><footer style="background-color: black; padding-top: 12px;">
+			<div class="container">
+				<img src="https://visitor-badge.laobi.icu/badge?page_id=https://ashish9680.github.io/portfolio.github.io" alt="visitor badge"/>
+			   <p style="color: grey;">&copy; My Portfolio Website <script>document.write(new Date().getFullYear());</script>. Some Rights Reserved.</p>
+			 </div>
+		</footer></center>
+		
+
+		<script src="script.js"></script>
+	</body>
+</html>
